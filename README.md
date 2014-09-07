@@ -15,3 +15,15 @@ cheers!
 ryan
 
 
+---
+Updates from when I dusted this off in September 2014:
+- To 'activate' you need to open up serial comms window
+- 115200 Baud (when you open serial comms window and press 's') to spew data
+- Analog Pin A0 input
+- Analog input MUST be DC biased at around 2.5 volts - and then the input sensor signal is Capacitively coupled  - so basically, find two large value resistors and divide 5v and 0v rails in half - THEN - run your geophone or speaker or whatever input transducer you have, into it.
+- 
+Example Stream:
+-- NORMAL -- MAXPEAK 45 N(mp): 0 Freq(aprx): 0 //// TH, 5 77 THC, 27         DECAY, 5 ALERTBULB, 5
+
+If MAXPEAK mp exceeds the TH(reshold) then the alerti fires.   The Frequency is used to flag dominant frequency component.
+
