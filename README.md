@@ -15,6 +15,8 @@ cheers!
 ryan
 
 
+AUG 2016 update -  https://dreamtolearn.com/ryan/data_analytics_viz/105  
+
 ---
 Updates from when I dusted this off in September 2014:
 - To 'activate' you need to open up serial comms window
